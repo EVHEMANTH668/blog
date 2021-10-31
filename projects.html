@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color:none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin:5px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    z-index:9;
+    height: 500px;
+    align-items: center;
+    opacity: 0.83;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+}
+.banner img{
+    border-radius: 50%;
+    height: 200px;
+}
+.banner h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banne span{
+    font-size: 40px;
+}
+.banner h2{
+    font-family: monospace;
+}
+
+.row{
+    padding: 20px;
+}
+
+.card {
+    transition: 0.5s;
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+    background-color: violet;
+}
+
+.card img{
+    height: 400px;
+    width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 20px 20px green;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.row a:visited{
+     color:green;
+}
+
+.row a:link{
+     color:black;
+}
+
+.row a:hover{
+     color: brown;
+}
+
+.row a:active{
+     color:white;
+}
+
+.row{
+    font-size:large;
+    text-align: center;
+}
+
+.row a{
+    font-size: large;
+}
+
+.center{
+    text-align: center;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECTS</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4> CODE EVTECH </h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="projects.html">PROJECTS</a>
+            </li>
+            <li>
+                <a href="chatbot.html">CHATBOT</a>
+            </li>
+            <li>
+                <a href="videos.html">VIDEOS</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div>
+       
+    </div>
+
+    <h1 class="center">MY WORKS</h1>
+    <br>
+        <hr>
+        <div class="row">
+            <div class="card">
+                <img src="wisher.png">
+                <div class="container">
+                    <h4><b>WISHER APP</b></h4>
+                    <br>
+                    <br>
+                    <p><a href="https://studio.code.org/projects/applab/CTmH92pK-P-qsFyArQ8IziCBBBbP6PqQLmooHnHPBEo/edit" target="_blank">click here to open</a></p>
+                </div>    
+            </div>
+
+            <div class="card">
+                <img src="ADMISSION APP.png">
+                <div class="container">
+                    <h4><b>ADMISSION APP</b></h4>
+                    <br>
+                    <br>
+                    <p><a href="https://studio.code.org/projects/applab/1TO8_OCa87EslqPRlc7vrlad1fnexBJHQ4DckigFAO0/edit" target="_blank">click here to open</a></p>
+                </div>    
+            </div>
+
+        
+            <div class="card">
+                <img src="evtech browser.png">
+                <div class="container">
+                    <h4><b>EVTECH BROWSER</b></h4>
+                    <br>
+                    <br>
+                    <p><a href="https://studio.code.org/projects/applab/ezY_Wka2YBDlQSQ3jfdA9LCWZKhjLO_t6ZNP-7dvu_4/edit" target="_blank">click here to open</a></p>
+                </div>    
+            </div>
+
+            <div class="card">
+                <img src="CHAT APP.png">
+                <div class="container">
+                    <h4><b>ONLINE CHATAPP</b></h4>
+                    <br>
+                    <br>
+                    <p><a href="https://studio.code.org/projects/applab/krKiKXH6NUrqdJG3-Lcp7QwCTd66K-xtFWpzxXaLWFI/edit" target="_blank">click here to open</a></p>
+                </div>
+                </div>
+       
+    </div>
+</body>
+</html>

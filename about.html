@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color:none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin:5px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    z-index:9;
+    height: 500px;
+    align-items: center;
+    opacity: 0.83;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+}
+.banner img{
+    border-radius: 50%;
+    height: 200px;
+}
+.banner h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banne span{
+    font-size: 40px;
+}
+.banner h2{
+    font-family: monospace;
+}
+
+#twitter{
+    display: inline-block;
+    border: black solid 3px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#instagram{
+    display: inline-block;
+    border: black solid 3px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#heading{
+    margin-left: 20px;
+}
+
+hr{
+    border-bottom: black solid 3px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.container-bar{
+    width : 70%;
+    margin: 10px auto;
+    background-color : royalblue;
+}
+
+#skills{
+    height:620px;
+    padding-top: 50px;
+    background-color: hotpink;
+}
+
+.skill{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    color: white;
+    text-align: right;
+}
+
+.html{
+      width:80%;
+      background-color:orange;
+}
+
+.css{
+     width:80%;
+     background-color: crimson;
+}
+
+.javascript{
+    width:70%;
+    color: black;
+    background-color: yellow;
+}
+
+.container{
+    padding: 2px 16px;
+}
+
+.center{
+    text-align: center;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4> CODE EVTECH </h4>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="projects.html">PROJECTS</a>
+            </li>
+            <li>
+                <a href="chatbot.html">CHATBOT</a>
+            </li>
+            <li>
+                <a href="videos.html">VIDEOS</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <div>
+    <a href="http://www.twitter.com/CodeEvtech" target="_blank" id="twitter"><img src="twitter.png" alt="twitter" height="100px" width="100px"></a>
+    <br>
+    <br>
+    <h2 id="heading">TWITTER</h2>
+    <br>
+    <hr>
+    
+    <a href="https://www.instagram.com/code_evtech/" target="_blank" id="instagram"><img src="instagram.png" alt="instagram" height="100px" width="100px"></a>
+    <br>
+    <br>
+    <h2>INSTAGRAM</h2>   
+    </div>
+
+    <section id="skills" class="center">
+        <h1>MY SKILLS</h1>
+        <br>
+        <h3>HTML</h3>
+        <div class="container-bar"><div class="skill html">80%</div></div>
+        
+        <h3>CSS</h3>
+        <div class="container-bar"><div class="skill css">80%</div></div>
+    
+        <h3>JAVASCRIPT</h3>
+        <div class="container-bar"><div class="skill javascript">70%</div></div>
+        </section>
+</body>
+</html>
